@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom hot spots</title>
+      <link href="css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/modal-video.min.css">
+
+    <link rel="stylesheet" href="https://cdn.pannellum.org/2.3/pannellum.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="https://cdn.pannellum.org/2.3/pannellum.js"></script>
+<script src="//code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="js/videopopup.js"></script>
+<style>
+.pnlm-about-msg {
+    opacity: 0;
+}
+.pnlm-about-msg {
+    font-size: 11px;
+    line-height: 11px;
+    color: #fff0;
+    padding: 5px 8px 5px 8px;
+    background: rgba(0, 0, 0, 0);
+}
+    .pnlm-about-msg a:link, .pnlm-about-msg a:visited {
+    color: #fff;
+    opacity: 0;
+}
+</style>
+  
+</head>
+<body>
+ <nav class="main-menu">
+          <ul>
+                <li >
+                    <a href="#">
+                        <i class="fa fa-car fa-2x"></i>
+                        <span class="nav-text">
+                           CAR
+                        </span>
+                    </a>
+                  
+                </li>
+                <li  class="has-subnav">
+                    <a   href="/mukesh/Html/360Hotspot/multianimation/index33C2.html">
+                        <i class="fa fa-laptop fa-2x"></i>
+                        <span class="nav-text">
+                          SCENE
+                        </span>
+                    </a>
+                    
+                </li>
+                       
+            </ul>
+
+            <ul class="logout">
+                <li>
+                   <a href="#">
+                         <i class="fa fa-power-off fa-2x"></i>
+                        <span class="nav-text">
+                          LOGOUT
+                        </span>
+                    </a>
+                </li>  
+            </ul>
+        </nav>
+<div class="container-fluid" >
+   <div class="row">      
+      <div class="col-12">
+          
+               <div class="d-flex flex-row justify-content-between">
+                               <div>
+                                  <h2 style="color:#fff; font-weight:600;"> HOUSTEN </h2>
+                               </div>
+                             <div class="button-back"><button class="btn btn-primary"> Back to website</button>
+                              </div>     
+              </div>
+                  <div id="panorama" style="position:relative;"></div> 
+                     <div class="d-flex flex-row-reverse posn-vid-div">             
+                        <a href="#" class="js-video-button vid-img" data-channel="video" data-video-url="nat.mp4"><img src="images/car.png" width="150px" height="90px" alt="car"></a>
+                    </div>
+       
+     </div>
+ </div>
+</div>
+ <script src="script/script.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script src="script/jquery-modal-video.min.js"></script>
+    <script>
+        $(".js-video-button").modalVideo({
+            youtube:{
+                controls:0,
+                nocookie: true
+            }
+        });
+    </script>
+
+
+</body>
+</html>
